@@ -3,6 +3,11 @@ let oddList = document.getElementById("odd");
 let evenList = document.getElementById("even");
 
 // ...more code here...updateWord()
+function updateWord(element) {
+  usersWord = element.value;
+
+  console.log(usersWord);
+}
 
 function handleSubmit() {
   let newListItem = document.createElement("LI");
