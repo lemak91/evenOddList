@@ -25,3 +25,4 @@ function handleSubmit() {
   usersWord = "";
   document.getElementById("even-odd-form").reset();
 }
+
